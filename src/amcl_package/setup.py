@@ -15,6 +15,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'amcl_launch = amcl_package.amcl_launch:main',
         ],
     },
 )
